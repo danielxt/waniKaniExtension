@@ -1,0 +1,11 @@
+{
+    "manifest_version" : 3,
+    "name" : "test Helper",
+    "description" : "idk yet",
+    "version" : "1.0",
+    "action" : {
+        "default_popup" : "/html/hello.html",
+        "default_icon" : "/images/wklogo.png"
+    }
+
+}

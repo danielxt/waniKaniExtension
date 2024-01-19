@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+body {
+    font-family: 'Proxima Nova', sans-serif;
+}
+#username {
+    font-weight:bold;
+    font-size:30px;
+}
+
+.bg-review {
+    background-color: rgba(3,156,234,255)
+}
+
+.bg-lesson {
+    background-color: rgba(236,1,156,255);
+}

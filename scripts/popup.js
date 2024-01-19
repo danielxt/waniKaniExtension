@@ -43,7 +43,8 @@ async function main() {
   document.getElementById("availableReviews").innerHTML = availableReviews;
 
   document.getElementById("nextReviewsAt").innerHTML = nextReviewsAt;
-
+  let profilePic = document.getElementById("profilePic")
+  profilePic.src = chrome.runtime.getURL("/images/waniProfilePic.jpg")
 }
 
 main();

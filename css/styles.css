@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+:root {
+    --lightWhite: #f7f7f7;
+    --darkWhite: #eeeeee;
+    --darkBlack: #393e46;
+    --lightGray: #929aab;
+    --reviewColor: rgba(3,156,234,255);
+    --lessonColor:  rgba(236,1,156,255);
+}
 body {
     font-family: 'Proxima Nova', sans-serif;
 }
@@ -6,11 +15,44 @@ body {
     font-weight:bold;
     font-size:30px;
 }
+#titleHeader {
+    color:var(--lightWhite);
+}
+
+
 
 .bg-review {
-    background-color: rgba(3,156,234,255)
+    background-color: var(--reviewColor);
+    filter: drop-shadow(0px 3px #0574cf);
 }
 
 .bg-lesson {
-    background-color: rgba(236,1,156,255);
+    background-color: var(--lessonColor);
+    filter: drop-shadow(0px 3px #b5217a);
+
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+a:active {
+    color:none;
+}
+
+.bg-lightWhite { 
+	background: var(--lightWhite); 
+}
+	
+.bg-darkWhite { 
+	background: var(--darkWhite); 
+}
+
+.bg-darkBlack { 
+	background: var(--darkBlack); 
+}
+
+.bg-lightGray { 
+	background: var(--lightGray); 
 }

@@ -6,6 +6,8 @@
     "action" : {
         "default_popup" : "/html/hello.html",
         "default_icon" : "/images/wklogo.png"
-    }
+    },
+    "web_accessible_resources": ["/images/waniProfilePic.jpg"]
+
 
 }

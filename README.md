@@ -6,6 +6,8 @@ A work in progress google extension that adds additional functionality to WaniKa
 
 - Concise popup profile dashboard when pinned and clicked
 - Number of reviews, lessons, and time till next review
+
+
 ![image](https://github.com/danielxt/waniKaniExtension/assets/114246026/3e667a5a-2c06-461a-8cf7-0cc36b0307cf)
 
 ### Features to be added

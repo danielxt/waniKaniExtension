@@ -17,6 +17,7 @@ A work in progress google extension that adds additional functionality to WaniKa
 - Level progression bar
 - Predicted time to level up
 - Grey out and disable review/lesson link when there are none available, replace with "time till next review message"
+- Timed reminders to user when reviews are available
 - Expansion button to display more user data from WK
 
 **To extended dashboard**

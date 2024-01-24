@@ -5,15 +5,16 @@
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body style="border: 1px solid black" class="bg-lightWhite">
-    <div class="container text-center overflow-hidden" style="width:300px">
-      <div class="row bg-dark" id="titleHeader">
+    <div class="container text-center" style="width:250px">
+      <div class="row bg-dark py-1" id="titleHeader">
         <div class="col">
-          Pocket WaniKani
+          
+          <a href="https://www.wanikani.com/" class="stretchLink">Pocket WaniKani</a>
         </div>
         
       </div>
-      <div class="row bg-darkWhite my-4">
-        <div class="col">
+      <div class="row bg-darkWhite ">
+        <div class="col my-2">
           <img src="./waniProfilePic.jpg" class="img-fluid rounded" alt="profilePic" id="profilePic">
           <p id="username"></p>
           <p>Level <span id="level"></span></p>
@@ -22,13 +23,12 @@
       </div>
     
     <div class="row gx-5">
-      <div class="col-sm-6 bg-lesson mx-2 my-2 py-2 rounded">
-        <span id="availableLessons"></span> Lessons 
+      <div class="col-sm-6 bg-lesson mx-2 my-2 rounded py-2">
+        <a href="https://www.wanikani.com/subject-lessons/start" class="stretchLink"><span id="availableLessons"></span> Lessons </a>
       </div>
-      
-        <div class="col-sm-6 bg-review mx-2 my-2 py-2 rounded">
-          <span id="availableReviews"></span> Reviews
-        </div>
+      <div class="col-sm-6 bg-review mx-2 my-2 rounded py-2">
+        <a href="https://www.wanikani.com/subjects/review" class="stretchLink"><span id="availableReviews"></span> Reviews</a>
+      </div>
 
       
     </div>

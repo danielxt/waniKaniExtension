@@ -3,6 +3,10 @@
 // spaced_repetition_systems, study_materials, subjects, summary, user, voice_actors
 async function fetchData(apiEndpointPath) {
   var apiToken = '7af47b26-693c-436b-825c-2ebc836b6c2f';
+//   var apiToken = '';
+//   chrome.storage.sync.get(["apiKey"]).then((data) => {
+//     apiToken = data.apiKey;
+// });
   var requestHeaders =
     new Headers({
     Authorization: 'Bearer ' + apiToken,

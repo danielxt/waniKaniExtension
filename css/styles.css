@@ -13,7 +13,6 @@ body {
 }
 #username {
     font-weight:bold;
-    font-size:30px;
 }
 #titleHeader {
     color:var(--lightWhite);

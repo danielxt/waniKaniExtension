@@ -4,9 +4,12 @@
     "description" : "idk yet",
     "version" : "1.0",
     "action" : {
-        "default_popup" : "/html/hello.html",
+        "default_popup" : "/html/dashboard.html",
         "default_icon" : "/images/wklogo.png"
-    }
-    
+    },
+    "permissions": [
+        "storage",
+        "browserAction"
+    ]
     
 }
